@@ -17,7 +17,7 @@ const Header = (props) => {
   // 
     return (
         <div className="header">
-            <NavLink  className="link" to="/">
+            <NavLink  className="link" to="/MyPortfolio">
               <Btn class={splitLocation[1] === "" ? "btn-grad2" : "btn-grad"}  name="About" ></Btn>
             </NavLink>
             <NavLink className="link" to="/Contact">

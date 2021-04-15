@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import './index.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from './components/Home'
+import MyPortfolio from './components/MyPortfolio'
 import Details from './components/Details'
 import Project from './components/Project'
 import Contact from './components/Contact'
@@ -23,7 +23,7 @@ function App() {
       <main>
         <Routes>
             <Route path="/MyPortfolio" >
-              <Home></Home>
+              <MyPortfolio></MyPortfolio>
             </Route>
             <Route path="/Contact" element={<Contact />}/>
             <Route path="/Details" element={<Details />}/>

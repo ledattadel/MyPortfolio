@@ -5,7 +5,7 @@ const dataParagraph =`Hi! I'm Dat. I'm a software developer based in HCM cty.I e
 
 ​Outside of code, I like to create in other ways. From blogging to photography, I'm always trying new ways of expressing myself. I also like to meditate, talk to strangers, and run lifestyle experiments.
 `
-const Home = (props) => {
+const MyPortfolio = (props) => {
 
   return (
     <div className="home">
@@ -17,4 +17,4 @@ const Home = (props) => {
   )
 }
 
-export default Home
+export default MyPortfolio
