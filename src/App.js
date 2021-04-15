@@ -22,7 +22,7 @@ function App() {
       </Header>
       <main>
         <Routes>
-            <Route path="/" >
+            <Route path="/MyPortfolio" >
               <Home></Home>
             </Route>
             <Route path="/Contact" element={<Contact />}/>
